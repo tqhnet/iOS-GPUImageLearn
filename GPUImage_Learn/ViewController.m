@@ -60,7 +60,7 @@
 
 - (NSArray *)classArray {
     if (!_classArray) {
-        _classArray = @[@"FilterSettingController",@"FilterTestController",@"FilterMovieViewController",@"BlurredPictureViewController"];
+        _classArray = @[@"FilterSettingController",@"FilterTestController",@"FilterMovieViewController",@"BlurredPictureViewController",@"FilterVideoViewController",@"VideoWatermarkingViewController",@"VideoWatermarkingViewController2"];
     }
     return _classArray;
 }

@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D8B7CD11EEFD579003EAE22 /* FilterVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8B7CD01EEFD579003EAE22 /* FilterVideoViewController.m */; };
+		0D8B7CD51EEFDF46003EAE22 /* VideoWatermarkingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8B7CD41EEFDF46003EAE22 /* VideoWatermarkingViewController.m */; };
+		0D8B7CDA1EEFE437003EAE22 /* VideoWatermarkingViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8B7CD91EEFE437003EAE22 /* VideoWatermarkingViewController2.m */; };
+		0D8B7CDD1EEFE588003EAE22 /* watermark.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D8B7CDC1EEFE588003EAE22 /* watermark.png */; };
+		0D8B7CDF1EEFE5AA003EAE22 /* abc.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0D8B7CDE1EEFE5AA003EAE22 /* abc.mp4 */; };
 		0DD029901EE791AC00340ACE /* GPUImageBeautifyFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD0298F1EE791AC00340ACE /* GPUImageBeautifyFilter.m */; };
 		0DD029941EE79D6F00340ACE /* FilterSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD029931EE79D6F00340ACE /* FilterSettingController.m */; };
 		0DD029971EE79E5B00340ACE /* FilterTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD029961EE79E5B00340ACE /* FilterTestController.m */; };
@@ -42,6 +47,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D8B7CCF1EEFD579003EAE22 /* FilterVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterVideoViewController.h; sourceTree = "<group>"; };
+		0D8B7CD01EEFD579003EAE22 /* FilterVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterVideoViewController.m; sourceTree = "<group>"; };
+		0D8B7CD31EEFDF46003EAE22 /* VideoWatermarkingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoWatermarkingViewController.h; sourceTree = "<group>"; };
+		0D8B7CD41EEFDF46003EAE22 /* VideoWatermarkingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoWatermarkingViewController.m; sourceTree = "<group>"; };
+		0D8B7CD81EEFE437003EAE22 /* VideoWatermarkingViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoWatermarkingViewController2.h; sourceTree = "<group>"; };
+		0D8B7CD91EEFE437003EAE22 /* VideoWatermarkingViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoWatermarkingViewController2.m; sourceTree = "<group>"; };
+		0D8B7CDC1EEFE588003EAE22 /* watermark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = watermark.png; sourceTree = "<group>"; };
+		0D8B7CDE1EEFE5AA003EAE22 /* abc.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = abc.mp4; sourceTree = "<group>"; };
 		0DD0298E1EE791AC00340ACE /* GPUImageBeautifyFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageBeautifyFilter.h; sourceTree = "<group>"; };
 		0DD0298F1EE791AC00340ACE /* GPUImageBeautifyFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageBeautifyFilter.m; sourceTree = "<group>"; };
 		0DD029921EE79D6F00340ACE /* FilterSettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterSettingController.h; sourceTree = "<group>"; };
@@ -126,6 +139,8 @@
 			isa = PBXGroup;
 			children = (
 				0DD0299B1EE7A7A000340ACE /* face.png */,
+				0D8B7CDE1EEFE5AA003EAE22 /* abc.mp4 */,
+				0D8B7CDC1EEFE588003EAE22 /* watermark.png */,
 				0DD0298E1EE791AC00340ACE /* GPUImageBeautifyFilter.h */,
 				0DD0298F1EE791AC00340ACE /* GPUImageBeautifyFilter.m */,
 				0DDDB5D71EDE73AC005AB13E /* AppDelegate.h */,
@@ -140,6 +155,12 @@
 				0DD029991EE79E7200340ACE /* FilterMovieViewController.m */,
 				0DD0299E1EE7AE3400340ACE /* BlurredPictureViewController.h */,
 				0DD0299F1EE7AE3400340ACE /* BlurredPictureViewController.m */,
+				0D8B7CCF1EEFD579003EAE22 /* FilterVideoViewController.h */,
+				0D8B7CD01EEFD579003EAE22 /* FilterVideoViewController.m */,
+				0D8B7CD31EEFDF46003EAE22 /* VideoWatermarkingViewController.h */,
+				0D8B7CD41EEFDF46003EAE22 /* VideoWatermarkingViewController.m */,
+				0D8B7CD81EEFE437003EAE22 /* VideoWatermarkingViewController2.h */,
+				0D8B7CD91EEFE437003EAE22 /* VideoWatermarkingViewController2.m */,
 				0DDDB5DD1EDE73AC005AB13E /* Main.storyboard */,
 				0DDDB5E01EDE73AC005AB13E /* Assets.xcassets */,
 				0DDDB5E21EDE73AC005AB13E /* LaunchScreen.storyboard */,
@@ -302,9 +323,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D8B7CDF1EEFE5AA003EAE22 /* abc.mp4 in Resources */,
 				0DD0299C1EE7A7A000340ACE /* face.png in Resources */,
 				0DDDB5E41EDE73AC005AB13E /* LaunchScreen.storyboard in Resources */,
 				0DDDB5E11EDE73AC005AB13E /* Assets.xcassets in Resources */,
+				0D8B7CDD1EEFE588003EAE22 /* watermark.png in Resources */,
 				0DDDB5DF1EDE73AC005AB13E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -378,7 +401,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D8B7CD51EEFDF46003EAE22 /* VideoWatermarkingViewController.m in Sources */,
 				0DDDB5DC1EDE73AC005AB13E /* ViewController.m in Sources */,
+				0D8B7CD11EEFD579003EAE22 /* FilterVideoViewController.m in Sources */,
 				0DD029901EE791AC00340ACE /* GPUImageBeautifyFilter.m in Sources */,
 				0DD029941EE79D6F00340ACE /* FilterSettingController.m in Sources */,
 				0DD0299A1EE79E7200340ACE /* FilterMovieViewController.m in Sources */,
@@ -386,6 +411,7 @@
 				0DD029971EE79E5B00340ACE /* FilterTestController.m in Sources */,
 				0DDDB5D91EDE73AC005AB13E /* AppDelegate.m in Sources */,
 				0DDDB5D61EDE73AC005AB13E /* main.m in Sources */,
+				0D8B7CDA1EEFE437003EAE22 /* VideoWatermarkingViewController2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,7 +507,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -523,7 +549,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -537,7 +563,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 87S2AUX254;
 				INFOPLIST_FILE = GPUImage_Learn/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tqh.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -551,7 +577,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 87S2AUX254;
 				INFOPLIST_FILE = GPUImage_Learn/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tqh.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
