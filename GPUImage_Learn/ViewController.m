@@ -60,7 +60,7 @@
 
 - (NSArray *)classArray {
     if (!_classArray) {
-        _classArray = @[@"FilterSettingController",@"FilterTestController",@"FilterMovieViewController",@"BlurredPictureViewController",@"FilterVideoViewController",@"VideoWatermarkingViewController",@"VideoWatermarkingViewController2",@"VideoMergeMixingViewController",@"ImageInputAndOutputController",@"MergeVideoController",@"FaceRecognitionController",@"SobelController"];
+        _classArray = @[@"FilterSettingController",@"FilterTestController",@"FilterMovieViewController",@"BlurredPictureViewController",@"FilterVideoViewController",@"VideoWatermarkingViewController",@"VideoWatermarkingViewController2",@"VideoMergeMixingViewController",@"ImageInputAndOutputController",@"MergeVideoController",@"FaceRecognitionController",@"SobelController",@"FaceGPUImageController",@"MARFaceBeautyController"];
     }
     return _classArray;
 }

@@ -44,6 +44,10 @@
 		0D9685591EF3B8A00022E536 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D9685581EF3B8A00022E536 /* CoreMotion.framework */; };
 		0D96855B1EF3B8B00022E536 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D96855A1EF3B8B00022E536 /* libz.tbd */; };
 		0D96855F1EF3BE380022E536 /* SobelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D96855E1EF3BE380022E536 /* SobelController.m */; };
+		0DA7FAD41F00B4AB00E7809C /* FaceGPUImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA7FAD31F00B4AB00E7809C /* FaceGPUImageController.m */; };
+		0DA7FAD61F00B52E00E7809C /* cap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0DA7FAD51F00B52E00E7809C /* cap.jpg */; };
+		0DA7FADC1F00B66A00E7809C /* LFGPUImageBeautyFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA7FADB1F00B66A00E7809C /* LFGPUImageBeautyFilter.m */; };
+		0DA7FADF1F00B67700E7809C /* MARFaceBeautyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA7FADE1F00B67700E7809C /* MARFaceBeautyController.m */; };
 		0DD029901EE791AC00340ACE /* GPUImageBeautifyFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD0298F1EE791AC00340ACE /* GPUImageBeautifyFilter.m */; };
 		0DD029941EE79D6F00340ACE /* FilterSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD029931EE79D6F00340ACE /* FilterSettingController.m */; };
 		0DD029971EE79E5B00340ACE /* FilterTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD029961EE79E5B00340ACE /* FilterTestController.m */; };
@@ -139,6 +143,13 @@
 		0D96855A1EF3B8B00022E536 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		0D96855D1EF3BE380022E536 /* SobelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SobelController.h; sourceTree = "<group>"; };
 		0D96855E1EF3BE380022E536 /* SobelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SobelController.m; sourceTree = "<group>"; };
+		0DA7FAD21F00B4AB00E7809C /* FaceGPUImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceGPUImageController.h; sourceTree = "<group>"; };
+		0DA7FAD31F00B4AB00E7809C /* FaceGPUImageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceGPUImageController.m; sourceTree = "<group>"; };
+		0DA7FAD51F00B52E00E7809C /* cap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cap.jpg; sourceTree = "<group>"; };
+		0DA7FADA1F00B66A00E7809C /* LFGPUImageBeautyFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFGPUImageBeautyFilter.h; sourceTree = "<group>"; };
+		0DA7FADB1F00B66A00E7809C /* LFGPUImageBeautyFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFGPUImageBeautyFilter.m; sourceTree = "<group>"; };
+		0DA7FADD1F00B67700E7809C /* MARFaceBeautyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MARFaceBeautyController.h; sourceTree = "<group>"; };
+		0DA7FADE1F00B67700E7809C /* MARFaceBeautyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MARFaceBeautyController.m; sourceTree = "<group>"; };
 		0DD0298E1EE791AC00340ACE /* GPUImageBeautifyFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageBeautifyFilter.h; sourceTree = "<group>"; };
 		0DD0298F1EE791AC00340ACE /* GPUImageBeautifyFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageBeautifyFilter.m; sourceTree = "<group>"; };
 		0DD029921EE79D6F00340ACE /* FilterSettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterSettingController.h; sourceTree = "<group>"; };
@@ -330,10 +341,13 @@
 		0DDDB5D31EDE73AC005AB13E /* GPUImage_Learn */ = {
 			isa = PBXGroup;
 			children = (
+				0DA7FAD51F00B52E00E7809C /* cap.jpg */,
 				0D9685501EF3B7100022E536 /* iflyMSC.framework */,
 				0D9248D71EF3AD000089BFEC /* lib */,
 				0D9248D01EF38BD00089BFEC /* SimpleEditor.h */,
 				0D9248D11EF38BD00089BFEC /* SimpleEditor.m */,
+				0DA7FADA1F00B66A00E7809C /* LFGPUImageBeautyFilter.h */,
+				0DA7FADB1F00B66A00E7809C /* LFGPUImageBeautyFilter.m */,
 				0D9248B61EF384170089BFEC /* TH */,
 				0DD0299B1EE7A7A000340ACE /* face.png */,
 				0D8B7CDE1EEFE5AA003EAE22 /* abc.mp4 */,
@@ -369,6 +383,10 @@
 				0D9248D51EF3ACC50089BFEC /* FaceRecognitionController.m */,
 				0D96855D1EF3BE380022E536 /* SobelController.h */,
 				0D96855E1EF3BE380022E536 /* SobelController.m */,
+				0DA7FAD21F00B4AB00E7809C /* FaceGPUImageController.h */,
+				0DA7FAD31F00B4AB00E7809C /* FaceGPUImageController.m */,
+				0DA7FADD1F00B67700E7809C /* MARFaceBeautyController.h */,
+				0DA7FADE1F00B67700E7809C /* MARFaceBeautyController.m */,
 				0DDDB5DD1EDE73AC005AB13E /* Main.storyboard */,
 				0DDDB5E01EDE73AC005AB13E /* Assets.xcassets */,
 				0DDDB5E21EDE73AC005AB13E /* LaunchScreen.storyboard */,
@@ -542,6 +560,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DA7FAD61F00B52E00E7809C /* cap.jpg in Resources */,
 				0D8B7CDF1EEFE5AA003EAE22 /* abc.mp4 in Resources */,
 				0DD0299C1EE7A7A000340ACE /* face.png in Resources */,
 				0DDDB5E41EDE73AC005AB13E /* LaunchScreen.storyboard in Resources */,
@@ -622,6 +641,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DA7FADC1F00B66A00E7809C /* LFGPUImageBeautyFilter.m in Sources */,
 				0D8B7CD51EEFDF46003EAE22 /* VideoWatermarkingViewController.m in Sources */,
 				0DDDB5DC1EDE73AC005AB13E /* ViewController.m in Sources */,
 				0D8B7CD11EEFD579003EAE22 /* FilterVideoViewController.m in Sources */,
@@ -633,6 +653,7 @@
 				0D9248CB1EF386A60089BFEC /* ImageInputAndOutputController.m in Sources */,
 				0DD029941EE79D6F00340ACE /* FilterSettingController.m in Sources */,
 				0DD0299A1EE79E7200340ACE /* FilterMovieViewController.m in Sources */,
+				0DA7FAD41F00B4AB00E7809C /* FaceGPUImageController.m in Sources */,
 				0D9248F81EF3AD000089BFEC /* CalculatorTools.m in Sources */,
 				0D9248FD1EF3AD000089BFEC /* IFlyFaceResultDetector.m in Sources */,
 				0D9248F71EF3AD000089BFEC /* CaptureManager.m in Sources */,
@@ -647,6 +668,7 @@
 				0D9248D61EF3ACC50089BFEC /* FaceRecognitionController.m in Sources */,
 				0D9248FE1EF3AD000089BFEC /* IFlyFaceResultKeys.m in Sources */,
 				0DDDB5D91EDE73AC005AB13E /* AppDelegate.m in Sources */,
+				0DA7FADF1F00B67700E7809C /* MARFaceBeautyController.m in Sources */,
 				0DDDB5D61EDE73AC005AB13E /* main.m in Sources */,
 				0D9248FA1EF3AD000089BFEC /* UIImage+compress.m in Sources */,
 				0D8B7CDA1EEFE437003EAE22 /* VideoWatermarkingViewController2.m in Sources */,
